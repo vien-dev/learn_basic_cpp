@@ -7,7 +7,7 @@ int main()
   long double ldf;
 
   printf("f:%ld, df:%ld, ldf:%ld\n", 
-    sizeof(f), sizeof(df), sizeof(ldf));
+    sizeof f, sizeof(df), sizeof(ldf));
 
   f = 34e37;
 
